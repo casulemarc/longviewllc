@@ -1,0 +1,129 @@
+#body{
+  font-family: 'Crete Round', serif;
+  background: rgb(226, 226, 226);
+}
+ul{
+  padding: auto;
+  margin:auto;
+  width: 20%;
+}
+.navbar-brand{
+  color: rgb(255, 7, 7);
+}
+.navbar-brand a:hover{
+  color: #0785fc;
+}
+
+.media-body{
+  font-family: 'Kaushan Script', cursive;
+  padding: 8px;
+  color:rgb(45, 88, 230);
+}
+.media-body p{
+  color:#2e2929;
+}
+.navbar{
+  box-shadow: 0px 0.3px 4px 0.3px #000000;  
+  background-color: #2a2b30;
+  color: red;
+}
+
+.navbar-nav a:hover{
+  color: red;
+  background-color: #434346;
+  border-radius: 5px;
+  width: 100%;
+  padding: 7px;
+}
+.navbar-nav a:visited{
+  color: rgb(4, 4, 255);
+  text-decoration: none;
+  cursor: auto;
+}
+#city-scape{
+  padding: 10px;
+  color: rgb(78, 76, 76);
+  margin-bottom: 10px;
+}
+#city-scape h1{
+  color: rgb(37, 37, 37);
+}
+#header-service p{
+ color: rgb(78, 76, 76);
+}
+#search-div{
+  padding: 20px;
+  color: #a39f9f;
+}
+#search-div .form-inline{
+  margin-left: 10%;
+}
+.navbar-nav .dropdown-menu a:hover{
+  border-radius: 2px;
+  background: #2a2b30;
+}
+#city-scape h4{
+  color: rgb(4, 120, 253);
+}
+
+.card-body h5{
+  color: #7c7a7a;
+}
+#footer{
+  margin-bottom: 0px;
+  color: #7c7a7a;
+  padding:30px;
+  background-color: #2a2b30;
+}
+#piece1, #piece2, #piece3{
+  border: 10px solid rgb(3, 90, 253);
+}
+
+
+#call-me, #mail-me{
+  text-decoration: none;
+  color: rgb(255, 7, 7);
+}
+#nav-pills a:hover{
+  color: rgb(255, 7, 7);
+  background-color: #2e2929;
+  width: 100%;
+}
+#button-effect{
+  box-shadow: 0px 0px 5px 1px #000;
+}
+#div-effect{
+  background: linear-gradient(rgb(135, 206, 240),rgb(155, 150, 177));
+  width: 100%;
+  color: #fff;
+  height: auto;
+  padding: 100px;
+  margin: auto;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .carousel-item{
+  height: 300px;
+  width: 100%;
+  }
+
+  .navbar{
+    min-height: 50px;
+  }
+  #footer{
+    text-align: center;
+  }
+  .navbar-nav{
+    width: 100%;
+    margin: auto;
+    padding: 1px;
+  }
+  .navbar-nav a:hover{
+    width: 100%;
+    padding: 5px;
+  }
+
+
+
+}
